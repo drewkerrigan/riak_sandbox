@@ -1,5 +1,15 @@
 # Upgrading Riak
 
+## Download Riak Versions
+
+```
+# 1.4.10
+wget http://s3.amazonaws.com/downloads.basho.com/riak/1.4/1.4.10/ubuntu/precise/riak_1.4.10-1_amd64.deb
+
+# 2.0.2
+wget http://s3.amazonaws.com/downloads.basho.com/riak/2.0/2.0.2/ubuntu/precise/riak_2.0.2-1_amd64.deb
+```
+
 ## Vagrant Setup
 
 ```
@@ -11,6 +21,8 @@ vagrant ssh
 ## Install Riak 1.4
 
 ```
+cd /vagrant
+
 sudo apt-get install curl
 sudo apt-get install libpam0g-dev
 
