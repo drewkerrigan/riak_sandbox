@@ -47,7 +47,7 @@ The register call should return the updated list of mimetype -> extractor mappin
  {"text/xml",yz_xml_extractor}]
 ```
 
-The new extractor can be verified using the extract yokozuna endpoint:
+The new extractor can be verified using the yokozuna `extract` endpoint:
 
 ```
 curl -XPUT -H 'content-type: application/httpheader' 'http://localhost:8098/search/extract' --data-binary "@testdata.bin"
