@@ -14,7 +14,7 @@
 erlc yz_httpheader_extractor.erl
 ```
 
-Move the resulting beam file to your add_paths directory
+Move the resulting beam file to your beams directory
 
 ```
 mv yz_httpheader_extractor.beam /opt/beams/
